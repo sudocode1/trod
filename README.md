@@ -42,6 +42,6 @@ let tweetEmbed = new Discord.MessageEmbed()
 
 Then, the embed is sent in #tweets in the server and Sent! is sent in the channel t!tweet was sent in.
 ```js
-        tweetChannel.send(tweetEmbed);
-        message.channel.send(`Sent!`);
+tweetChannel.send(tweetEmbed);
+message.channel.send(`Sent!`);
 ```
